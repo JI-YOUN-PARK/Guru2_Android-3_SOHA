@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="memo">
+        <menu>
+            <item
+                android:id="@+id/note"
+                android:icon="@drawable/ic_baseline_add_to_photos_24"
+                android:title="note" />
+            <item
+                android:id="@+id/addnote"
+                android:title="addnote" />
+
+        </menu>
+
+    </item>
+
+    <item
+
+        android:title="scomemo">
+
+    </item>
+    <item android:title="thimemo">
+
+    </item>
+</menu>
