@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MemoActivity">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_diary"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_diary"
+            android:paddingLeft="18dip"
+            android:drawablePadding="18dip"
+            android:gravity="left|center_vertical"
+            android:text="일기"
+            android:textSize="20dp"
+            android:background="@drawable/back_color"
+            />
+
+        <Button
+            android:id="@+id/btn_habit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_habait"
+            android:paddingLeft="18dip"
+            android:drawablePadding="18dip"
+            android:gravity="left|center_vertical"
+            android:text="습관"
+            android:textSize="20dp"
+            android:background="@drawable/back_color"
+            />
+
+        <Button
+            android:id="@+id/btn_planer"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_plan"
+            android:paddingLeft="18dip"
+            android:drawablePadding="18dip"
+            android:gravity="left|center_vertical"
+            android:text="플래너"
+            android:textSize="20dp"
+            android:background="@drawable/back_color"
+            />
+
+        <Button
+            android:id="@+id/btn_board"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_board"
+            android:paddingLeft="18dip"
+            android:drawablePadding="18dip"
+            android:gravity="left|center_vertical"
+            android:text="보드"
+            android:textSize="20dp"
+            android:background="@drawable/back_color"
+            />
+
+        <Button
+            android:id="@+id/btn_memo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_memo"
+            android:paddingLeft="18dip"
+            android:drawablePadding="18dip"
+            android:gravity="left|center_vertical"
+            android:text="메모"
+            android:textSize="20dp"
+            android:background="@drawable/back_color"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
