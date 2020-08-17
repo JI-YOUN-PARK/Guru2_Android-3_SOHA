@@ -12,9 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <View
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="70dp"/>
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="bottom"
+        android:textColor="#AE905E"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -24,68 +30,93 @@
 
         <Button
             android:id="@+id/btn_diary"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="57dp"
             android:drawableLeft="@drawable/button_diary"
+            android:drawableRight="@drawable/button_go"
             android:paddingLeft="18dip"
             android:drawablePadding="18dip"
             android:gravity="left|center_vertical"
-            android:text="일기"
+            android:text="오늘의 일기"
             android:textSize="20dp"
             android:background="@drawable/back_color"
             />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
 
         <Button
             android:id="@+id/btn_habit"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="57dp"
             android:drawableLeft="@drawable/button_habait"
+            android:drawableRight="@drawable/button_go"
             android:paddingLeft="18dip"
             android:drawablePadding="18dip"
             android:gravity="left|center_vertical"
-            android:text="습관"
+            android:text="습관 체크"
             android:textSize="20dp"
             android:background="@drawable/back_color"
             />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
 
         <Button
             android:id="@+id/btn_planer"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="57dp"
             android:drawableLeft="@drawable/button_plan"
+            android:drawableRight="@drawable/button_go"
             android:paddingLeft="18dip"
             android:drawablePadding="18dip"
             android:gravity="left|center_vertical"
-            android:text="플래너"
+            android:text="하루 플래너"
             android:textSize="20dp"
             android:background="@drawable/back_color"
             />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
 
         <Button
             android:id="@+id/btn_board"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="57dp"
             android:drawableLeft="@drawable/button_board"
+            android:drawableRight="@drawable/button_go"
             android:paddingLeft="18dip"
             android:drawablePadding="18dip"
             android:gravity="left|center_vertical"
-            android:text="보드"
+            android:text="스케치 보드"
             android:textSize="20dp"
             android:background="@drawable/back_color"
             />
 
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+
         <Button
             android:id="@+id/btn_memo"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="57dp"
             android:drawableLeft="@drawable/button_memo"
+            android:drawableRight="@drawable/button_go"
             android:paddingLeft="18dip"
             android:drawablePadding="18dip"
             android:gravity="left|center_vertical"
-            android:text="메모"
+            android:text="메모장"
             android:textSize="20dp"
             android:background="@drawable/back_color"
             />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
 
     </LinearLayout>
 

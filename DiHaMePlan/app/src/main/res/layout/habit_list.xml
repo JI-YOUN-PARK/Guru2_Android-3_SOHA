@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/yellow">
+    android:background="@color/light_blue">
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -36,17 +36,20 @@
             android:id="@+id/add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/back_color"
             android:text="습관 추가"/>
         <Button
             android:id="@+id/delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/back_color"
             android:text="습관 삭제"
             android:layout_marginLeft="70dp"/>
         <Button
             android:id="@+id/clear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/back_color"
             android:text="초기화"
             android:layout_marginLeft="60dp"/>
     </LinearLayout>
