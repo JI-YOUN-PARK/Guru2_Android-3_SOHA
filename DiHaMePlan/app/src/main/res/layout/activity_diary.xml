@@ -6,13 +6,24 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:orientation="vertical"
+    android:background="@drawable/diarymain"
     tools:context=".Fragment.DiaryFragment">
+
+    <ScrollView
+        android:id="@+id/calladd_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="70dp"
         android:padding="5dp" />
 
     <FrameLayout
@@ -96,6 +107,6 @@
             android:visibility="invisible" />
 
     </FrameLayout>
-
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

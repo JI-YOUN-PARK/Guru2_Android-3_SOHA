@@ -19,7 +19,7 @@
         <activity android:name=".WriteActivity" />
         <activity android:name=".PlanerActivity" />
         <activity android:name=".HabitActivity" />
-        <activity android:name=".DiaryActivity" />
+        <activity android:name=".DiaryActivity" android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".note.EditNote"
             android:theme="@style/AppTheme.NoActionBar" />
