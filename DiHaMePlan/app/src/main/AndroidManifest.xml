@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WriteActivity" />
-        <activity android:name=".PlanerActivity" />
-        <activity android:name=".HabitActivity" />
+        <activity android:name=".WriteActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PlanerActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".HabitActivity" android:windowSoftInputMode="adjustPan"/>
         <activity android:name=".DiaryActivity" android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".note.EditNote"
