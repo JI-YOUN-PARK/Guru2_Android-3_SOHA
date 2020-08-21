@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/diarymain" >
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="85dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/diary1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/hangeulnurib"
+        android:text="TextView"
+        android:textSize="9pt"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/diary1View" >
+
+        <EditText
+            android:id="@+id/diaryEditView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="30dp"
+            android:fontFamily="@font/hangeulnurir"
+            android:background="@android:color/transparent"
+            android:hint="내용 작성"
+            android:textSize="6.5pt"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="4dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/diary2View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:inputType="textMultiLine"
+            android:padding="30dp"
+            android:fontFamily="@font/hangeulnurir"
+            android:textSize="6.5pt"
+            android:textColor="@color/black"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideOverlay"
+            android:lineSpacingExtra="4dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/btnSaveDiary"
+            android:src="@drawable/add_planer"
+            android:text="추가"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/btnModifyDiary"
+            android:src="@drawable/modify_diary"
+            android:text="수정"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/btnDeleteDiary"
+            android:src="@drawable/delete_diary_planer"
+            android:text="삭제"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="110dp"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</LinearLayout>
